@@ -12,7 +12,6 @@ app.get('/data', (req, res) => {
 
     console.log(`ID: ${id}, Lat: ${lat}, Lng: ${lng}, Speed: ${speed}, Battery: ${battery}, Timestamp: ${timestamp}`);
     
-    // Here you can push to Firestore if you want later
     res.send('Data received');
 });
 
